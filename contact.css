@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://i.postimg.cc/pXw0zJR6/GS-banner.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease
+}
+
+header ul li a:hover{
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+header ul li.active a{
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+
+.logo h1{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+main h1{
+    color: #ffffff;
+    font-size: 32px;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main ul li{
+    display: block;
+}
+
+main ul li.email a{
+    border: 1px solid #EA4335;
+    padding: 30px 110px;
+    color: #ffffff;
+    background-color: #EA4335;
+    text-decoration: none;
+    transition: 0.6s ease;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main ul li.email a:hover{
+    background-color: #ffffff;
+    color: #EA4335;
+}
+
+main ul li.whatsapp a{
+    border: 1px solid #0DC142;
+    padding: 30px 82px;
+    color: #ffffff;
+    background-color: #0DC142;
+    text-decoration: none;
+    transition: 0.6s ease;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main ul li.whatsapp a:hover{
+    background-color: #ffffff;
+    color: #0DC142;
+}
+
+main ul li.messenger a{
+    border: 1px solid #0098F6;
+    padding: 30px 80px;
+    color: #ffffff;
+    background-color: #0098F6;
+    text-decoration: none;
+    transition: 0.6s ease;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+main ul li.messenger a:hover{
+    background-color: #ffffff;
+    color: #0098F6;
+}
